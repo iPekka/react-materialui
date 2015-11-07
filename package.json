@@ -1,0 +1,41 @@
+{
+  "name": "react-browserify-skeleton",
+  "version": "1.0.0",
+  "description": "This is a ready to use skeleton for ReactJS (using gulp and browserify).",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPekka/react-browserify.git"
+  },
+  "author": "Vincent Francais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPekka/react-browserify/issues"
+  },
+  "homepage": "https://github.com/iPekka/react-browserify#readme",
+  "dependencies": {
+    "material-ui": "^0.13.1",
+    "react": "^0.14.2",
+    "react-addons-create-fragment": "^0.14.2",
+    "react-addons-pure-render-mixin": "^0.14.2",
+    "react-addons-transition-group": "^0.14.2",
+    "react-addons-update": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-tap-event-plugin": "^0.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.12",
+    "cli-color": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^1.4.2",
+    "reactify": "^1.1.1",
+    "require-dir": "^0.3.0"
+  }
+}
