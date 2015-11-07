@@ -15,7 +15,7 @@ module.exports = {
     dest: dest
   },
   browserify: {
-    entries: src + "/app/app.js",
+    entries: src + "/app/app.jsx",
     dest: dest,
     outputName: 'app.js'
   }
